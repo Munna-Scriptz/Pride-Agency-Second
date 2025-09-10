@@ -16,7 +16,7 @@ const Navbar = () => {
                         <Link className='hover:text-primary duration-300' to={'/'}>Services</Link>
                     </div>
                     {/* -----------------Nav Buttons-------------------- */}
-                    <Link to={'/'} className='py-[18px] px-[45px] rounded-full bg-primary text-white cursor-pointer text-lg'>
+                    <Link to={'/'} className='py-[18px] px-[45px] font-siliguri rounded-full bg-primary text-white cursor-pointer text-lg'>
                         যোগাযোগ করুন
                     </Link>
                 </div>
