@@ -47,7 +47,7 @@ const Services = () => {
                     <div className='flex items-center justify-center md:justify-between  mt-[64px] lg:gap-y-[56px] gap-y-[39px] flex-wrap'>
                         {
                             MyOrganized.map((item , e)=>(
-                            <div key={e} data-aos="fade-up" className='w-[380px] flex items-center flex-col gap-6 hover:bg-[#0a66c26b] bg-linear-120 hover:-translate-y-5 duration-300 py-[32px] rounded-[18px]'>
+                            <div key={e} data-aos="fade-up" className='w-[380px] flex items-center flex-col gap-6 hover:bg-linear-to-bl from-white to-[#0a66c233] hover:-translate-y-5 duration-300 py-[32px] rounded-[18px]'>
                                 <div><img src={item.icon} alt="icon" /></div>
                                 <div>
                                     <h2 className='text-primary text-[26px] font-semibold font-siliguri text-center'>{item.upperText}</h2>
