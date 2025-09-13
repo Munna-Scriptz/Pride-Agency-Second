@@ -16,9 +16,9 @@ const Footer = () => {
                     <img className='w-[142px]' src={logo} alt="Logo" />
                     <div className='mt-9 flex flex-col lg:items-start items-center'>
                         <p className=' text-white lg:text-start text-center font-semibold text-lg lg:w-[300px] w-full '>আপনার ব্যবসার ডিজিটাল সফলতার সহযোগী</p>
-                        <p className='text-white font-poppins flex items-center gap-2 mt-5'><IoLocationSharp /> Dhaka , Bangladesh</p>
-                        <p className='text-white font-poppins flex items-center gap-2 mt-2'><IoCall /> Phone : 01xxxxxxxxx</p>
-                        <p className='text-white font-poppins flex items-center gap-2 mt-2'><MdEmail /> Email : munnascriptz@gmail.com</p>
+                        <p className='text-white font-poppins flex items-center gap-2 mt-5'><IoLocationSharp /> Ekrampur CNG Station, Kishoreganj, Dhaka</p>
+                        <p className='text-white font-poppins flex items-center gap-2 mt-2'><IoCall /> Phone : +880 1327-312666</p>
+                        <p className='text-white font-poppins flex items-center gap-2 mt-2'><MdEmail /> Email : prideagency.it@gmail.com</p>
                     </div>
                 </div>
                 {/* -------------------------Pages------------------------------ */}
@@ -50,7 +50,7 @@ const Footer = () => {
                             </div>
                             <div>
                                 <h2 className='text-2xl font-semibold font-poppins text-white'>Email</h2>
-                                <p className='text-base text-white'>munnascriptz@gmail.com</p>
+                                <p className='text-base text-white'>prideagency.it@gmail.com</p>
                             </div>
                         </div>
                         <div className='flex items-center gap-3.5'>
