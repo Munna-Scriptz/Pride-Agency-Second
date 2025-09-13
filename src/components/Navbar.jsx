@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 const Navbar = () => {
   return (
     <>
-        <nav className='py-[20px]'>
+        <nav className='py-[20px] lg:block hidden'>
             <div className="container">
                 <div id="Nav-Row" className='flex items-center justify-between'>
                     {/* -----------------Logo-------------------- */}
