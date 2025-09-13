@@ -42,16 +42,16 @@ const Services = () => {
             <div className="container">
                 <div id="Use-Row">
                     {/* ------------Header------------ */}
-                    <div><h2 className='text-primary font-semibold font-siliguri lg:text-[50px] text-[32px] text-center' data-aos="fade-up">আমাদের সার্ভিস</h2></div>
+                    <div><h2 className='text-primary font-semibold font-siliguri lg:text-[50px] text-[42px] text-center' data-aos="fade-up">আমাদের সার্ভিস</h2></div>
                     {/* ------------List------------ */}
                     <div className='flex items-center justify-center md:justify-between  mt-[64px] lg:gap-y-[56px] gap-y-[39px] flex-wrap'>
                         {
                             MyOrganized.map((item , e)=>(
-                            <div key={e} data-aos="fade-up" className='w-[380px] flex items-center flex-col gap-6 hover:bg-linear-to-bl from-white to-[#0a66c233] hover:-translate-y-5 duration-300 py-[32px] rounded-[18px]'>
+                            <div key={e} data-aos="fade-up" className='lg:w-[380px] w-full flex items-center flex-col gap-6 hover:bg-linear-to-bl from-white to-[#0a66c233] hover:-translate-y-5 duration-300 py-[32px] lg:px-0 px-3 rounded-[18px]'>
                                 <div><img src={item.icon} alt="icon" /></div>
                                 <div>
-                                    <h2 className='text-primary text-[26px] font-semibold font-siliguri text-center'>{item.upperText}</h2>
-                                    <p className='text-brand text-[22px] font-siliguri font-normal text-center mt-3'>{item.lowerText}</p>
+                                    <h2 className='text-primary lg:text-[26px] text-2xl font-semibold font-siliguri text-center'>{item.upperText}</h2>
+                                    <p className='text-brand lg:text-[22px] text-lg font-siliguri font-normal text-center mt-3'>{item.lowerText}</p>
                                 </div>
                             </div>
                             ))
