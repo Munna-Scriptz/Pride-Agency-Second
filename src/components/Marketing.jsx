@@ -6,7 +6,7 @@ const Marketing = () => {
     <>
         <section id='Marketing' className='mt-[120px]'>
             <div className="container">
-                <div id="Marketing-Row" className='px-[25px] py-[65px] rounded-2xl flex items-center justify-between bg-linear-to-bl from-white to-[#0a66c233]'>
+                <div id="Marketing-Row" className='px-[25px] py-[65px] rounded-2xl flex lg:flex-row flex-col items-center justify-between bg-linear-to-bl from-white to-[#0a66c233]'>
                     {/* -----------------Left Side------------------ */}
                     <div className='w-[920px]'>
                         <h2 className='font-siliguri font-semibold text-[34px] text-primary'>প্রুভেন ডিজিটাল মার্কেটিং স্ট্র্যাটেজির মাধ্যমে আপনার ব্যবসা বাড়াতে আমাদের সাথে একটি ফ্রি মিটিং করুন</h2>
