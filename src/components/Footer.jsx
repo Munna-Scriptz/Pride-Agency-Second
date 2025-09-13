@@ -88,7 +88,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='border-t border-t-[#bebebe] mt-10 pt-6'>
-            <p className='text-[#b4b4b4] font-poppins text-center'>© 2025 Munna-Scriptz, Inc.</p>
+            <p className='text-[#b4b4b4] font-poppins text-center'>© 2025 Made By <Link className='underline underline-offset-[5px]' to={'https://portfolio-munna.vercel.app/'}>Munna-Scriptz,</Link> Inc.</p>
         </div>
     </footer>
     </>
