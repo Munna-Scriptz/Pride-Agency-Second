@@ -5,7 +5,7 @@ import { IoCall, IoCallOutline, IoLocationOutline, IoLocationSharp } from 'react
 import { MdEmail } from 'react-icons/md'
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPinterestP, FaTwitter } from 'react-icons/fa'
 import { CgMail } from 'react-icons/cg'
-import { CiLocationOn } from 'react-icons/ci'
+
 const Footer = () => {
   return (
     <>
@@ -13,29 +13,29 @@ const Footer = () => {
         <div className="container">
             <div id="Footer-Row" className='flex lg:flex-row flex-col items-start lg:gap-0 gap-[40px] justify-between'>
                 <div className='flex flex-col'>
-                    <img className='w-[142px]' src={logo} alt="Logo" />
+                    <img className='w-[142px]' src={logo} alt="Logo" data-aos="fade-up"/>
                     <div className='mt-9 flex flex-col items-start'>
-                        <p className=' text-white text-start font-semibold text-lg lg:w-[300px] w-full '>আপনার ব্যবসার ডিজিটাল সফলতার সহযোগী</p>
-                        <p className='text-white lg:text-base text-sm font-poppins flex items-center gap-2 mt-5'><IoLocationSharp /> Ekrampur CNG Station, Kishoreganj, Dhaka</p>
-                        <p className='text-white lg:text-base text-sm font-poppins flex items-center gap-2 mt-2'><IoCall /> Phone : +880 1327-312666</p>
-                        <p className='text-white lg:text-base text-sm font-poppins flex items-center gap-2 mt-2'><MdEmail /> Email : prideagency.it@gmail.com</p>
+                        <p className=' text-white text-start font-semibold text-lg lg:w-[300px] w-full' data-aos="fade-up">আপনার ব্যবসার ডিজিটাল সফলতার সহযোগী</p>
+                        <p className='text-white lg:text-base text-sm font-poppins flex items-center gap-2 mt-5' data-aos="fade-up" data-aos-offset="10" ><IoLocationSharp /> Ekrampur CNG Station, Kishoreganj, Dhaka</p>
+                        <p className='text-white lg:text-base text-sm font-poppins flex items-center gap-2 mt-2' data-aos="fade-up" data-aos-offset="10" ><IoCall /> Phone : +880 1327-312666</p>
+                        <p className='text-white lg:text-base text-sm font-poppins flex items-center gap-2 mt-2' data-aos="fade-up" data-aos-offset="10" ><MdEmail /> Email : prideagency.it@gmail.com</p>
                     </div>
                 </div>
                 {/* -------------------------Pages------------------------------ */}
                 <div>
-                    <h2 className='text-white font-poppins font-medium text-3xl uppercase'>Pages</h2>
+                    <h2 className='text-white font-poppins font-medium text-3xl uppercase' data-aos="fade-up" >Pages</h2>
                     <div className='mt-4 flex flex-col items-start gap-3'>
-                        <Link to={'/'} className='text-white font-poppins '>Home</Link>
-                        <Link to={'/'} className='text-white font-poppins '>About</Link>
-                        <Link to={'/'} className='text-white font-poppins '>Contact us</Link>
-                        <Link to={'/'} className='text-white font-poppins '>Privacy & Policy</Link>
+                        <Link to={'/'} className='text-white font-poppins' data-aos="fade-up">Home</Link>
+                        <Link to={'/'} className='text-white font-poppins ' data-aos="fade-up">About</Link>
+                        <Link to={'/'} className='text-white font-poppins ' data-aos="fade-up">Contact us</Link>
+                        <Link to={'/'} className='text-white font-poppins ' data-aos="fade-up">Privacy & Policy</Link>
                     </div>
                 </div>
                 {/* -------------------------Company------------------------------ */}
                 <div>
-                    <h2 className='text-white font-poppins font-medium text-start text-3xl uppercase'>Company</h2>
+                    <h2 className='text-white font-poppins font-medium text-start text-3xl uppercase' data-aos="fade-up">Company</h2>
                     <div className='mt-4 flex items-start flex-col gap-4'>
-                        <div className='flex items-center gap-3.5'>
+                        <div className='flex items-center gap-3.5' data-aos="fade-up">
                             <div className='bg-white text-brand rounded-full lg:w-[40px] w-[35px] lg:h-[40px] h-[35px] flex items-center justify-center lg:text-2xl text-lg'>
                                 <IoLocationOutline />
                             </div>
@@ -44,7 +44,7 @@ const Footer = () => {
                                 <p className='lg:text-base text-sm text-white'>Ekrampur CNG Station, Kishoreganj, Dhaka</p>
                             </div>
                         </div>
-                        <div className='flex items-center gap-3.5'>
+                        <div className='flex items-center gap-3.5' data-aos="fade-up">
                             <div className='bg-white text-brand rounded-full lg:w-[40px] w-[35px] lg:h-[40px] h-[35px] flex items-center justify-center lg:text-2xl text-lg'>
                                 <CgMail />
                             </div>
@@ -53,7 +53,7 @@ const Footer = () => {
                                 <p className='lg:text-base text-sm text-white'>prideagency.it@gmail.com</p>
                             </div>
                         </div>
-                        <div className='flex items-center gap-3.5'>
+                        <div className='flex items-center gap-3.5' data-aos="fade-up">
                             <div className='bg-white text-brand rounded-full lg:w-[40px] w-[35px] lg:h-[40px] h-[35px] flex items-center justify-center lg:text-2xl text-lg'>
                                 <IoCallOutline />
                             </div>
@@ -66,21 +66,21 @@ const Footer = () => {
                 </div>
                 {/* -------------------------Social Media------------------------------ */}
                 <div>
-                    <h2 className='text-white font-poppins font-medium text-start text-3xl uppercase'>Social Media</h2>
+                    <h2 className='text-white font-poppins font-medium text-start text-3xl uppercase' data-aos="fade-up">Social Media</h2>
                     <div className='mt-4 flex lg:items-start items-center gap-3'>
-                        <a to={'/'} className='text-white cursor-pointer hover:bg-brand duration-300 font-poppins w-[40px] h-[40px] rounded-full border-1 border-white flex items-center justify-center text-xl'>
+                        <a target='_blank' href={'https://www.facebook.com/rexon.notfr'} className='text-white cursor-pointer hover:bg-brand duration-300 font-poppins w-[40px] h-[40px] rounded-full border-1 border-white flex items-center justify-center text-xl' data-aos="fade-up">
                             <FaFacebookF />
                         </a>
-                        <a to={'/'} className='text-white cursor-pointer hover:bg-brand duration-300 font-poppins w-[40px] h-[40px] rounded-full border-1 border-white flex items-center justify-center text-xl'>
-                            <FaTwitter />
-                        </a>
-                        <a to={'/'} className='text-white cursor-pointer hover:bg-brand duration-300 font-poppins w-[40px] h-[40px] rounded-full border-1 border-white flex items-center justify-center text-xl'>
-                            <FaLinkedinIn />
-                        </a>
-                        <a to={'/'} className='text-white cursor-pointer hover:bg-brand duration-300 font-poppins w-[40px] h-[40px] rounded-full border-1 border-white flex items-center justify-center text-xl'>
+                        <a target='_blank' href={'https://www.instagram.com/rexon.notfr/'} className='text-white cursor-pointer hover:bg-brand duration-300 font-poppins w-[40px] h-[40px] rounded-full border-1 border-white flex items-center justify-center text-xl' data-aos="fade-up">
                             <FaInstagram />
                         </a>
-                        <a to={'/'} className='text-white cursor-pointer hover:bg-brand duration-300 font-poppins w-[40px] h-[40px] rounded-full border-1 border-white flex items-center justify-center text-xl'>
+                        <a target='_blank' href={'https://www.linkedin.com/in/munna-scriptz'} className='text-white cursor-pointer hover:bg-brand duration-300 font-poppins w-[40px] h-[40px] rounded-full border-1 border-white flex items-center justify-center text-xl' data-aos="fade-up">
+                            <FaLinkedinIn />
+                        </a>
+                        <a target='_blank' href={'/'} className='text-white cursor-pointer hover:bg-brand duration-300 font-poppins w-[40px] h-[40px] rounded-full border-1 border-white flex items-center justify-center text-xl' data-aos="fade-up">
+                            <FaTwitter />
+                        </a>
+                        <a target='_blank' href={'/'} className='text-white cursor-pointer hover:bg-brand duration-300 font-poppins w-[40px] h-[40px] rounded-full border-1 border-white flex items-center justify-center text-xl' data-aos="fade-up">
                             <FaPinterestP />
                         </a>
                     </div>
